@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "ServiceM8 PDF Preview Fix for Firefox",
+  "version": "1.0.0",
+  "description": "Unofficial Firefox extension that works around slow embedded PDF previews in ServiceM8.",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{2b1a6284-0c81-4e43-8e0e-9d8bb7ed2ddc}",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://go.servicem8.com/*"
+      ],
+      "js": [
+        "fix.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
