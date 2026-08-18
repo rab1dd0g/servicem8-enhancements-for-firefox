@@ -28,6 +28,12 @@ This extension:
 
 The PDF itself continues to be loaded directly from ServiceM8's temporary AWS S3 preview location as part of the normal ServiceM8 preview workflow.
 
+## Support
+
+Please report bugs or compatibility problems using the repository's [GitHub Issues](https://github.com/rab1dd0g/servicem8-firefox-pdf-fix/issues).
+
+When reporting an issue, include your Firefox version, operating system, and the approximate PDF preview delay. Do not include ServiceM8 credentials, session tokens, signed PDF URLs, or customer information.
+
 ## Disclaimer
 
 This is an unofficial community extension and is not affiliated with, endorsed by, or maintained by ServiceM8.
