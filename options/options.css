@@ -1,0 +1,71 @@
+:root {
+  color-scheme: light dark;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 24px;
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 1.6rem;
+}
+
+.option {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.35);
+  cursor: pointer;
+}
+
+.option input {
+  margin-top: 3px;
+}
+
+.option span {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.option strong {
+  font-size: 1rem;
+}
+
+.option small {
+  opacity: 0.75;
+  line-height: 1.4;
+}
+
+#status {
+  min-height: 1.5em;
+  margin-top: 16px;
+  opacity: 0.75;
+}
+
+.scale-control {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.scale-control label {
+  font-size: 0.9rem;
+}
+
+.scale-control input {
+  width: 64px;
+  padding: 4px 6px;
+}

@@ -1,0 +1,5 @@
+# Local development backups
+backups/
+
+# web-ext build output
+web-ext-artifacts/

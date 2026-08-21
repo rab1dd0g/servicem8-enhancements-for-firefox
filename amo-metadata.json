@@ -1,0 +1,15 @@
+{
+  "summary": {
+    "en-US": "Configurable Firefox enhancements for ServiceM8 PDF previews, windows, readability, and interface scaling."
+  },
+  "description": {
+    "en-US": "An unofficial community extension providing configurable enhancements for the ServiceM8 web application in Firefox.\n\nFeatures include:\n\n• Fast PDF Preview — works around unusually slow ServiceM8-generated PDF previews.\n• Auto-size PDF Windows — resizes supported PDF windows to better fit PDFs displayed at Actual Size.\n• Open PDFs at Actual Size — opens supported ServiceM8 PDFs at 100% for sharper text without changing Firefox's global PDF zoom preference.\n• Compact ServiceM8 UI — proportionally scales supported ServiceM8 interface areas while leaving PDF previews unscaled. Currently confirmed on the Dispatch Board and Invoicing pages, with an adjustable 75–100% scale.\n\nEach feature can be enabled or disabled independently from the extension's Options page.\n\nThe extension runs only on go.servicem8.com. Extension preferences are stored locally in Firefox. No user data is collected or transmitted to the extension developer, and the extension contains no analytics or tracking.\n\nThis extension is not affiliated with, endorsed by, or maintained by ServiceM8."
+  },
+  "categories": [
+    "other"
+  ],
+  "version": {
+    "license": "MPL-2.0",
+    "approval_notes": "Unofficial ServiceM8 compatibility and usability extension for Firefox. All source files are human-readable and included directly in the extension. There is no minification, transpilation, remote code, third-party library, analytics, or data collection. The extension runs only on https://go.servicem8.com/*. The storage permission is used only to save user-configurable extension preferences locally with browser.storage.local. PDF functionality recognizes ServiceM8-provided PDF preview and attachment URLs. The options page consists of local HTML, CSS, and JavaScript included with the extension. Functional reproduction of ServiceM8-specific behaviours requires access to an authenticated ServiceM8 account."
+  }
+}

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ServiceM8 Enhancements for Firefox - Options</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <main>
+    <h1>ServiceM8 Enhancements</h1>
+
+    <label class="option">
+      <input type="checkbox" id="fastPdfPreview">
+      <span>
+        <strong>Fast PDF Preview</strong>
+        <small>
+          Work around slow ServiceM8 generated PDF previews.
+        </small>
+      </span>
+    </label>
+
+    <label class="option">
+      <input type="checkbox" id="autoSizePdfWindows">
+      <span>
+        <strong>Auto-size PDF Windows</strong>
+        <small>
+          Automatically size ServiceM8 PDF windows to suit the selected PDF zoom.
+        </small>
+      </span>
+    </label>
+
+    <label class="option">
+      <input type="checkbox" id="actualSizePdf">
+      <span>
+        <strong>Open PDFs at Actual Size</strong>
+        <small>
+          Open ServiceM8 PDF previews at 100% for sharper text.
+        </small>
+      </span>
+    </label>
+
+    <label class="option">
+      <input type="checkbox" id="compactUi">
+      <span>
+        <strong>Compact ServiceM8 UI</strong>
+        <small>
+          Proportionally reduce the ServiceM8 interface without scaling PDF previews. Currently supported on the Dispatch Board and Invoicing pages.
+        </small>
+
+        <span class="scale-control">
+          <label for="uiScalePercent">UI scale</label>
+          <input
+            type="number"
+            id="uiScalePercent"
+            min="75"
+            max="100"
+            step="1"
+            value="85"
+          >
+          <span>%</span>
+        </span>
+      </span>
+    </label>
+
+    <p id="status" aria-live="polite"></p>
+  </main>
+
+  <script src="options.js"></script>
+</body>
+</html>
