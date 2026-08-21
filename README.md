@@ -87,6 +87,12 @@ PDF documents continue to be loaded directly from ServiceM8's own infrastructure
 
 No PDF content is sent to the extension developer or to any third-party service by this extension.
 
+## Support
+
+Please report bugs or compatibility problems using the repository's [GitHub Issues](https://github.com/rab1dd0g/servicem8-enhancements-for-firefox/issues).
+
+When reporting an issue, include your Firefox version, operating system, and a description of the affected ServiceM8 feature. Do not include ServiceM8 credentials, session tokens, signed PDF URLs, or customer information.
+
 ## Disclaimer
 
 This is an unofficial community extension and is not affiliated with, endorsed by, or maintained by ServiceM8.
